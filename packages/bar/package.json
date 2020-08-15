@@ -1,0 +1,13 @@
+{
+  "name": "@games/bar",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Alex Ball",
+  "license": "MIT",
+  "dependencies": {
+    "@games/foo": "^1.0.0"
+  },
+  "scripts": {
+    "test": "jest --version"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@games/foo",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Alex Ball",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.19"
+  }
+}
