@@ -11,8 +11,10 @@
     "eslint-plugin-jest": "^23.20.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
     "jest": "^26.2.2",
     "lerna": "^3.22.1",
+    "lint-staged": "^10.2.11",
     "prettier": "2.0.5",
     "ts-jest": "^26.1.4",
     "typescript": "^3.9.7"
@@ -20,9 +22,20 @@
   "scripts": {
     "test": "yarn workspaces run test",
     "build": "tsc -b .",
-    "start": "main"
+    "start": "main",
+    "lint": "set -x; eslint .; prettier -c .",
+    "fix": "set -x; eslint --fix .; prettier . --write"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": "eslint --fix",
+    "*.{json,md}": "prettier --write"
+  }
 }
