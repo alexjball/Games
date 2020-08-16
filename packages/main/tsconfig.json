@@ -4,10 +4,10 @@
     "outDir": "dist",
     "rootDir": "."
   },
+  "include": ["**/*.ts"],
   "references": [
     {
       "path": "../foo"
     }
-  ],
-  "files": ["index.ts"]
+  ]
 }

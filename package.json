@@ -20,9 +20,11 @@
     "typescript": "^3.9.7"
   },
   "scripts": {
-    "test": "yarn workspaces run test",
+    "test": "jest --watch",
+    "test:changed": "jest -o",
+    "test:all": "jest",
     "build": "tsc -b .",
-    "start": "main",
+    "start": "yarn workspace @games/main start",
     "lint": "set -x; eslint .; prettier -c .",
     "fix": "set -x; eslint --fix .; prettier . --write"
   },
@@ -31,7 +33,7 @@
   ],
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "yarn test:changed && lint-staged"
     }
   },
   "lint-staged": {

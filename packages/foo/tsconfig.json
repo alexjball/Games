@@ -4,6 +4,6 @@
     "outDir": "dist",
     "rootDir": "."
   },
-  "references": [],
-  "files": ["index.ts"]
+  "include": ["**/*.ts"],
+  "references": []
 }
