@@ -1,11 +1,5 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "sourceMap": true
-  },
-
-  "typeAcquisition": { "enable": true },
-
-  "exclude": ["node_modules", "dist"]
+  "files": [],
+  "include": [],
+  "references": [{ "path": "./packages/main" }, { "path": "./packages/foo" }]
 }

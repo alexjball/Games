@@ -7,6 +7,7 @@
     "@typescript-eslint/parser": "^3.8.0",
     "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^23.20.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
@@ -17,7 +18,9 @@
     "typescript": "^3.9.7"
   },
   "scripts": {
-    "test": "jest --version"
+    "test": "yarn workspaces run test",
+    "build": "tsc -b .",
+    "start": "main"
   },
   "workspaces": [
     "packages/*"

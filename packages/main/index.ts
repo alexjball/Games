@@ -1,3 +1,5 @@
+#!/usr/bin/env node .
+
 import { min, version } from '@games/foo';
 
 console.log('lodash versiob', version());

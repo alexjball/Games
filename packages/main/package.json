@@ -1,12 +1,12 @@
 {
-  "name": "@games/bar",
+  "name": "@games/main",
   "version": "1.0.0",
-  "main": "index.ts",
   "author": "Alex Ball",
   "license": "MIT",
   "dependencies": {
     "@games/foo": "^1.0.0"
   },
+  "bin": "./dist/index.js",
   "scripts": {
     "test": "jest --version"
   }
