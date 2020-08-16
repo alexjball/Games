@@ -4,7 +4,8 @@
   "author": "Alex Ball",
   "license": "MIT",
   "dependencies": {
-    "@games/foo": "^1.0.0"
+    "@games/foo": "^1.0.0",
+    "@games/tic-tac-toe": "^1.0.0"
   },
   "scripts": {
     "start": "node dist/index.js"

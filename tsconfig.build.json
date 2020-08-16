@@ -4,7 +4,6 @@
 
     "pretty": true,
     "target": "es5",
-    "rootDir": ".",
 
     "declaration": true,
     "declarationMap": true,

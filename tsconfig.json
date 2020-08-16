@@ -1,5 +1,7 @@
 {
-  "files": [],
-  "include": [],
-  "references": [{ "path": "./packages/main" }, { "path": "./packages/foo" }]
+  "extends": "./tsconfig.build",
+  "compilerOptions": {
+    "baseUrl": "packages",
+    "paths": { "@games/*": ["*/src"] }
+  }
 }

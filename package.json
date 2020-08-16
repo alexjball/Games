@@ -7,6 +7,7 @@
     "@typescript-eslint/parser": "^3.8.0",
     "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.2.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^23.20.0",
     "eslint-plugin-node": "^11.1.0",
@@ -23,7 +24,8 @@
     "test": "jest --watch",
     "test:changed": "jest -o",
     "test:all": "jest",
-    "build": "tsc -b .",
+    "build": "tsc -b tsconfig.build-all.json",
+    "clean": "yarn workspaces run rimraf -rf ./dist tsconfig.build.tsbuildinfo",
     "start": "yarn workspace @games/main start",
     "lint": "set -x; eslint .; prettier -c .",
     "fix": "set -x; eslint --fix .; prettier . --write"
