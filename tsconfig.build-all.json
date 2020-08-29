@@ -4,6 +4,7 @@
   "references": [
     { "path": "./packages/main/tsconfig.build.json" },
     { "path": "./packages/foo/tsconfig.build.json" },
-    { "path": "./packages/tic-tac-toe/tsconfig.build.json" }
+    { "path": "./packages/tic-tac-toe/tsconfig.build.json" },
+    { "path": "./packages/uno/tsconfig.build.json" }
   ]
 }

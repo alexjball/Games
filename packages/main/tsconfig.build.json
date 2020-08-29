@@ -11,6 +11,9 @@
     },
     {
       "path": "../tic-tac-toe/tsconfig.build.json"
+    },
+    {
+      "path": "../uno/tsconfig.build.json"
     }
   ]
 }

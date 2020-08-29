@@ -1,0 +1,8 @@
+{
+  "name": "@games/uno",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Alex Ball",
+  "license": "MIT",
+  "private": true
+}
