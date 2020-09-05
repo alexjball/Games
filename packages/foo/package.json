@@ -1,7 +1,7 @@
 {
   "name": "@games/foo",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist/bundle.js",
   "author": "Alex Ball",
   "license": "MIT",
   "private": true,
@@ -9,6 +9,8 @@
     "lodash": "^4.17.19"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.159"
+    "@types/lodash": "^4.14.159",
+    "clean-webpack-plugin": "^3.0.0",
+    "webpack-node-externals": "^2.5.2"
   }
 }

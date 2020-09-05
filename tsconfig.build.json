@@ -1,15 +1,19 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "es6",
 
     "pretty": true,
     "target": "es5",
-
+    
+    "jsx": "react",
+    "allowJs": true,
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
     "composite": true,
     "noEmitOnError": true,
+
+    "isolatedModules": true,
 
     "strictNullChecks": true,
     "noImplicitAny": true,
@@ -26,5 +30,5 @@
 
     "types": ["node", "jest"]
   },
-  "exclude": ["**/node_modules", "**/dist", "**/__tests__"]
+  // "exclude": ["**/node_modules", "**/dist", "**/__tests__"]
 }

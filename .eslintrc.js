@@ -19,7 +19,7 @@ module.exports = {
     require: 'readonly',
   },
   rules: {
-    'import/no-extraneous-dependencies': ['error', { devDependencies: false }],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
   settings: {
     'import/resolver': {
