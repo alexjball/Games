@@ -1,7 +1,28 @@
 dependencies:
+  '@rush-temp/foo': 'file:projects/foo.tgz'
   '@rush-temp/tic-tac-toe': 'file:projects/tic-tac-toe.tgz'
+  '@types/lodash': 4.14.161
+  lodash: 4.17.20
 lockfileVersion: 5.1
 packages:
+  /@types/lodash/4.14.161:
+    dev: false
+    resolution:
+      integrity: sha512-EP6O3Jkr7bXvZZSZYlsgt5DIjiGr0dXP1/jVEwVLTFgg0d+3lWVQkRavYVQszV7dYUwvg0B8R0MBDpcmXg7XIA==
+  /lodash/4.17.20:
+    dev: false
+    resolution:
+      integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
+  'file:projects/foo.tgz':
+    dependencies:
+      '@types/lodash': 4.14.161
+      lodash: 4.17.20
+    dev: false
+    name: '@rush-temp/foo'
+    resolution:
+      integrity: sha512-79V5xkMhQTvQxlAir06WCwVei/HVCTLmyfnnxIFcnBwnmufDaca7o2SXU9DJoncYN37IjrAMZmcZNUTTNvDGsA==
+      tarball: 'file:projects/foo.tgz'
+    version: 0.0.0
   'file:projects/tic-tac-toe.tgz':
     dev: false
     name: '@rush-temp/tic-tac-toe'
@@ -9,5 +30,9 @@ packages:
       integrity: sha512-hVSJSLliWFFeqLmDGe2msI4Ucps7Vf3acTtBSWuzulX9BPRWkMOh9BmliLzn6FgBzdDo5G9qTrev8hyAlzAz6g==
       tarball: 'file:projects/tic-tac-toe.tgz'
     version: 0.0.0
+registry: ''
 specifiers:
+  '@rush-temp/foo': 'file:./projects/foo.tgz'
   '@rush-temp/tic-tac-toe': 'file:./projects/tic-tac-toe.tgz'
+  '@types/lodash': ^4.14.159
+  lodash: ^4.17.19

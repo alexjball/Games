@@ -372,6 +372,10 @@
     {
       "packageName": "@games/tic-tac-toe",
       "projectFolder": "games/tic-tac-toe"
+    },
+    {
+      "packageName": "@games/foo",
+      "projectFolder": "experimental/foo"
     }
     // {
     //   /**
