@@ -10,7 +10,11 @@
       "source.fixAll": true
     },
     "editor.wordWrap": "on",
-    "files.autoSave": "off"
+    "files.autoSave": "off",
+    "files.associations": {
+      "**/common/**/*.json": "jsonc",
+      "**/rush.json": "jsonc"
+    }
   },
   "extensions": {
     "recommendations": [
