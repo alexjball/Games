@@ -1,0 +1,13 @@
+dependencies:
+  '@rush-temp/tic-tac-toe': 'file:projects/tic-tac-toe.tgz'
+lockfileVersion: 5.1
+packages:
+  'file:projects/tic-tac-toe.tgz':
+    dev: false
+    name: '@rush-temp/tic-tac-toe'
+    resolution:
+      integrity: sha512-hVSJSLliWFFeqLmDGe2msI4Ucps7Vf3acTtBSWuzulX9BPRWkMOh9BmliLzn6FgBzdDo5G9qTrev8hyAlzAz6g==
+      tarball: 'file:projects/tic-tac-toe.tgz'
+    version: 0.0.0
+specifiers:
+  '@rush-temp/tic-tac-toe': 'file:./projects/tic-tac-toe.tgz'
